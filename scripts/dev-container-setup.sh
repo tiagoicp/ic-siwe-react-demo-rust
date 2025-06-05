@@ -10,6 +10,10 @@ pnpm install
 # TODO improve later, fix for "dubious ownership" error
 git config --global --add safe.directory /workspaces/ic-siwe-react-demo-rust
 
+# Setup Makefile
+apt update
+apt install build-essential
+
 # Set up dfx identity for codespace
 echo "🔑 Setting up dfx identity..."
 dfx identity new codespace_dev --storage-mode=plaintext || echo "Identity may already exist"
