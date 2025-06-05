@@ -5,7 +5,8 @@ echo "🚀 Setting up ICP Vibe Coding development environment..."
 
 # Install npm dependencies
 echo "📦 Installing npm dependencies..."
-npm install
+npm install -g pnpm@latest-10
+pnpm install
 
 # Set up dfx identity for codespace
 echo "🔑 Setting up dfx identity..."
