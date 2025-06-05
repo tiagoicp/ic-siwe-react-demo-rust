@@ -7,6 +7,8 @@ echo "🚀 Setting up ICP Vibe Coding development environment..."
 echo "📦 Installing npm dependencies..."
 npm install -g pnpm@latest-10
 pnpm install
+# TODO improve later, fix for "dubious ownership" error
+git config --global --add safe.directory /workspaces/ic-siwe-react-demo-rust
 
 # Set up dfx identity for codespace
 echo "🔑 Setting up dfx identity..."
